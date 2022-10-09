@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/png" href="/img/emoji/rosto.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Rafael Mafort Coimbra</title>
+</head>
+<body>
+    <header>
+        <div class="container-header" id="header">
+            <div class="logo"><img src="/img/emoji/rosto.png" alt="logo"></div>
+            <nav id="nav">
+                <button id="menu-mobile">
+                    <span class="material-icons md-32">menu</span>
+                </button>
+                <div id="menu">
+                    <a href="#home">Home</a>    
+                    <a href="#sobre">Sobre</a>  
+                    <a href="#Habilidades">Habilidades</a>  
+                    <a href="#projetos">Projetos</a>    
+                    <a href="#contato">Contato</a>  
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container-home" id="home">
+                <div class="titulo-home">
+                    <h2 class="typing-animation">"Hello World!"</h2>
+                </div>
+                <div class="home-all">
+                    <div class="home-texto">
+                        <p>Meu nome é</p>
+                        <h1><span><</span>Rafael Mafort Coimbra></h1>
+                        <p>sou desenvolvedor <strong>Full-Stack</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-sobre" id="sobre">
+                <div class="sobre-all">
+                    <div class="sobre-texto">
+                        <div class="titulo"><h2>Sobre mim</h2></div>
+                        <p id="texto">Atualmente estou cursando Análise e Desenvolvimento de Sistemas na FIAP, tenho conhecimento em back-end e front-end além da aplicação de metodologias ágeis, como SCRUM.</p>
+
+                        <p>Desde sempre fui muito apaixonado por tecnologia, matemática e lógica e pretendo evoluir cada vez mais para me tornar um grande profissional na área.</p> 
+                </div>
+            </div>
+        </section>
+
+        <section id="Habilidades">
+            <div class="container-Habilidades">
+                <div class="titulo"><h2>Habilidades</h2></div>
+                <div class="cards">
+                    <div class="cards-dois">
+                        <div class="card-area">
+                            <img src="/img/tech/java.png" alt="Java" class="img-tech">
+                            <p>Java</p>
+                        </div>
+                        <div class="card-area">
+                            <img src="/img/tech/python.png" alt="Python" class="img-tech">
+                            <p>Python</p>
+                        </div>
+                    </div>
+                    <div class="cards-dois">
+                        <div class="card-area">
+                            <img src="/img/tech/html.png" alt="HTML" class="img-tech">
+                            <p>HTML</p>
+                        </div>
+                        <div class="card-area">
+                            <img src="/img/tech/css.png" alt="CSS" class="img-tech">
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                    <div class="cards-dois">
+                        <div class="card-area">
+                            <img src="/img/tech/js.png" alt="JavaScript" class="img-tech">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="card-area">
+                            <img src="/img/tech/react.png" alt="React" class="img-tech">
+                            <p>React</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container-projetos">
+                <div class="titulo"><h2>Projetos</h2></div>
+                <div class="cards-projeto">
+                    <div class="card-projeto">
+                        <div class="projeto-cima">
+                            <h2>Codify.</h2>
+                            <p>JAVA | REACT</p>
+                        </div>
+                        <div class="projeto-imagem">
+                            <a href="https://codifyy.tech/">
+                                <img src="./img/projetos/codify.png" alt="codify" class="imagem-web">                            
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-projeto">
+                        <div class="projeto-cima">
+                            <h2>Portfolio</h2>
+                            <p>HTML | CSS | JS</p>
+                        </div>
+                        <div class="projeto-imagem">
+                            <a href="https://rafaelmafortc.tech/">
+                                <img src="./img/projetos/portfolio.png" alt="codify" class="imagem-web">                            
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container-contato">
+                <div class="titulo"><h2>Contato</h2></div>
+                <div class="contato-all">
+                    <form action="https://formspree.io/f/" method="POST">
+                        <div class="cima">
+                            <label>
+                                <p>Nome</p>
+                                <input type="text" name="name" placeholder="John Doe" required>
+                            </label>
+                            <label><p>Email</p>
+                                <input type="email" name="email" placeholder="exemplo@gmail.com" required>
+                            </label>
+                        </div>
+                        <label>
+                            <p>Mensagem</p>
+                            <textarea name="message" placeholder="Olá, tudo bem?"></textarea>
+                        </label>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://devrafael.netlify.app/#contato">
+                        <button type="submit" class="botao-enviar">
+                            <span class="material-icons">outgoing_mail</span>
+                            <p>Enviar</p>
+                        </button>
+                   </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="menu-contato">
+            <a href="mailto:rafaelmafortc@gmail.com" target="_blank" class="botao-contato"><img src="./img/contato/email.png" alt="email"></a>
+            <a href="https://www.linkedin.com/in/rafael-mafort-c/" target="_blank" class="botao-contato"><img src="./img/contato/linkedin.png" alt="email"></a>
+            <a href="https://github.com/raafamafort" target="_blank" class="botao-contato"><img src="./img/contato/github.png" alt="email"></a>
+            <a href="https://wa.me/5511966552003" target="_blank" class="botao-contato"><img src="./img/contato/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://drive.google.com/file/d/1E2r8xYr7gugfaY0GVR4x1Pb7V04s_xrA/view?usp=sharing" target="_blank" class="botao-contato"><img src="./img/contato/curriculo.png" alt="Curriculo"></a>
+        </nav>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
